@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(135deg, #f3e5f5, #e1bee7); /* Degradado de rosa claro a morado claro */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+.card-header {
+    background-color: #f8f9fa; /* Color de fondo claro para el encabezado */
+    color: #6f42c1; /* Color morado para el texto */
+    font-size: 1.5rem;
+    border-bottom: none;
+    text-align: center;
+}
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #6f42c1; /* Borde morado para los campos de entrada */
+}
+.btn {
+    border-radius: 10px;
+    padding: 8px 12px; /* Padding ajustado para mayor comodidad */
+    font-size: 0.875rem; /* Tamaño de fuente ajustado */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+.btn-primary {
+    background-color: #6f42c1; /* Color morado para el botón de registro */
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #5a318a; /* Color más oscuro al hacer hover */
+}
+.text-danger {
+    font-size: 0.875rem;
+}
+.icon {
+    margin-right: 10px;
+}
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
